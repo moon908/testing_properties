@@ -1,5 +1,5 @@
 import { IconCirclePlusFilled, IconMail } from "@tabler/icons-react";
-
+import { SidebarGroupLabel } from "@/components/ui/sidebar"
 import { Button } from "@/components/ui/button"
 import {
   SidebarGroup,
@@ -14,6 +14,7 @@ export function NavMain({
 }) {
   return (
     <SidebarGroup>
+      <SidebarGroupLabel>Home</SidebarGroupLabel>
       <SidebarGroupContent className="flex flex-col gap-2">
         <SidebarMenu>
           <SidebarMenuItem className="flex items-center gap-2">
